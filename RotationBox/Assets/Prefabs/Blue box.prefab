@@ -29,13 +29,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6238763107805386834}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.8, y: -17.4, z: 0}
   m_LocalScale: {x: 1.0717939, y: 1.0717939, z: 1.0717939}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6238763107805386833
 SpriteRenderer:
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cffa02b4c7ad8a5479d99ca94223f0d4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 38fec0fd8e17477449591055e61005b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -122,6 +122,12 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 10
   m_Material: {fileID: 6200000, guid: 39f5d81d0fa6d914f9db9fe99d06b11e, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -152,6 +158,25 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -171,8 +196,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelectedSkin: 0
-  standart: {fileID: 21300000, guid: cffa02b4c7ad8a5479d99ca94223f0d4, type: 3}
-  random: {fileID: 21300000, guid: a5d48118d53bb474aaa8d6525532d046, type: 3}
-  math: {fileID: 21300000, guid: bd16d4f7145f62747b51c555e4553172, type: 3}
-  karta: {fileID: 21300000, guid: 92f8860225a2fd544bbdb85a28f43b48, type: 3}
+  standart: {fileID: 21300000, guid: 38fec0fd8e17477449591055e61005b8, type: 3}
+  random: {fileID: 21300000, guid: 8efc4c73c20126247867282622a5d915, type: 3}
+  math: {fileID: 21300000, guid: 1e1709b0e4673e74592fbebffa427bc0, type: 3}
+  karta: {fileID: 21300000, guid: eb4c1341f820474468ade49130622e39, type: 3}
   Ball: {fileID: 6238763107805386834}

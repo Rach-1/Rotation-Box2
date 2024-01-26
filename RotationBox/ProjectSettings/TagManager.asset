@@ -9,6 +9,7 @@ TagManager:
   - Red
   - Gray
   - Money
+  - RGB
   layers:
   - Default
   - TransparentFX
