@@ -7,14 +7,14 @@ public class BlueExit : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Blue")
+        if (collision.gameObject.tag == "Blue" || collision.gameObject.tag == "RGB")
         {
             GetComponent<BoxCollider2D>().enabled = false;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Blue")
+        if (collision.gameObject.tag == "Blue" || collision.gameObject.tag == "RGB")
         {
             GetComponent<BoxCollider2D>().enabled = true;
         }
