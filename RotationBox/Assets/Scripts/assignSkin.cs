@@ -9,7 +9,8 @@ public class assignSkin: MonoBehaviour
     public Sprite random;
     public Sprite math;
     public Sprite karta;
-    
+    public Sprite rim;
+
     public GameObject Ball;
     void Start()
     {
@@ -29,6 +30,10 @@ public class assignSkin: MonoBehaviour
         else if (SelectedSkin == 3)
         {
             Ball.GetComponent<SpriteRenderer>().sprite = karta;
+        }
+        else if (SelectedSkin == 4)
+        {
+            Ball.GetComponent<SpriteRenderer>().sprite = rim;
         }
         else
         {

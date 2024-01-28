@@ -246,4 +246,5 @@ MonoBehaviour:
   random: {fileID: 21300000, guid: 1baf0724bbbad5b4795cac616705126a, type: 3}
   math: {fileID: 21300000, guid: 0cde2a71fc7ac47429ac4ae3e8044801, type: 3}
   karta: {fileID: 21300000, guid: cc2a5b01adc83ee44add2c425dc9d919, type: 3}
+  rim: {fileID: 21300000, guid: 6b4e28ac4447d4b40b105492bb66d189, type: 3}
   Ball: {fileID: 3842081056485358188}
