@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Rotation : MonoBehaviour
 {
     public int Money;
-    public bool IsRot;
 
     [SerializeField] AudioClip rote;
 
@@ -17,6 +16,8 @@ public class Rotation : MonoBehaviour
     public Box box3;
     public Box box4;
     private int Grad = 0;
+
+    public ChangeColorDoor door;
 
     void Awake()
     {
@@ -29,13 +30,12 @@ public class Rotation : MonoBehaviour
     public void PlaySound()
     {
         GetComponent<AudioSource>().PlayOneShot(rote);
-        IsRot = false;
+        door.ColorSwitch();
     }
     public void Right()
     {
         if (box.isStopped && box1.isStopped && box2.isStopped && box3.isStopped && box4.isStopped)
         {
-            IsRot = true;
             Grad -= 90;
             transform.rotation = Quaternion.Euler(0, 0, Grad);
             PlaySound();
@@ -45,7 +45,6 @@ public class Rotation : MonoBehaviour
     {
         if (box.isStopped && box1.isStopped && box2.isStopped && box3.isStopped && box4.isStopped)
         {
-            IsRot = true;
             Grad += 90;
             transform.rotation = Quaternion.Euler(0, 0, Grad);
             PlaySound();
