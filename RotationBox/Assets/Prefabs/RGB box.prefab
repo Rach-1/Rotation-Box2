@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7339196132382927309}
   - component: {fileID: 4625137837717220184}
   - component: {fileID: 849542723968854702}
+  - component: {fileID: 7290683042858840564}
   - component: {fileID: 390971572631943628}
   m_Layer: 0
   m_Name: RGB box
@@ -149,6 +150,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &7290683042858840564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9003535388853645489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7069fec04812e10438f6d7171be72ebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isStopped: 0
+  StartTimeShot: 0
+  IsGrounded: 0
+  Exit: 0
 --- !u!114 &390971572631943628
 MonoBehaviour:
   m_ObjectHideFlags: 0
