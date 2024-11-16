@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] int boxes = 0;
+    [SerializeField] int needBoxesToWin = 3;
     [SerializeField] GameObject winPanel;
     [SerializeField] GameObject losePanel;
 
@@ -81,13 +82,19 @@ public class MainMenu : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        boxes++;
+        if (collision.gameObject.tag != "RGB")
+        {
+            if (collision.gameObject.tag != "Gray")
+            {
+                boxes++;
+            }
+        }
         box = collision.gameObject.GetComponent<Box>();
         if (collision.gameObject.tag == "Gray")
         {
             losePanel.SetActive(true);
         }
-        else if (boxes == 3)
+        else if (boxes == needBoxesToWin)
         {
             winPanel.SetActive(true);
         }
