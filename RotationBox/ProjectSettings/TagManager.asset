@@ -10,6 +10,10 @@ TagManager:
   - Gray
   - Money
   - RGB
+  - GreenExit
+  - GrayExit
+  - BlueExit
+  - RedExit
   layers:
   - Default
   - TransparentFX
