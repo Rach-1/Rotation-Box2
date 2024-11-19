@@ -30,7 +30,7 @@ public class Rotation : MonoBehaviour
     public void PlaySound()
     {
         GetComponent<AudioSource>().PlayOneShot(rote);
-        door.ColorSwitch();
+        //door.ColorSwitch();
     }
     public void Right()
     {

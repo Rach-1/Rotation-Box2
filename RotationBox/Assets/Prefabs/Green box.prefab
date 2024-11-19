@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelectedSkin: 0
-  standart: {fileID: 21300000, guid: ff535659967aaee489744380d586d163, type: 3}
+  standart: {fileID: 21300000, guid: ac91a43caf62b7340b3f07280d5d812c, type: 3}
   random: {fileID: 21300000, guid: 60126b11ff971ab4d92741c2a98c68ae, type: 3}
   math: {fileID: 21300000, guid: 7cd8918b69421014eaf751214bc89f04, type: 3}
   karta: {fileID: 21300000, guid: dfe755d7e7edc5e4ba66dda4b239c5d8, type: 3}

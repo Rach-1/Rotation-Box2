@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
     [SerializeField] int needBoxesToWin = 3;
     [SerializeField] GameObject winPanel;
     [SerializeField] GameObject losePanel;
+    [SerializeField] string[] winBoxes;
 
     public int thisLvl;
 
@@ -82,21 +83,22 @@ public class MainMenu : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "RGB")
+        for (int i = 0;collision.gameObject.tag != "RGB" && collision.gameObject.tag != "Gray"; i++)
         {
-            if (collision.gameObject.tag != "Gray")
+            if (collision.gameObject.tag == winBoxes[i])
             {
                 boxes++;
+                break;
             }
+        }
+        if (boxes == needBoxesToWin)
+        {
+            winPanel.SetActive(true);
         }
         box = collision.gameObject.GetComponent<Box>();
         if (collision.gameObject.tag == "Gray")
         {
             losePanel.SetActive(true);
-        }
-        else if (boxes == needBoxesToWin)
-        {
-            winPanel.SetActive(true);
         }
         box.Exit = true;
         Destroy(collision.gameObject);

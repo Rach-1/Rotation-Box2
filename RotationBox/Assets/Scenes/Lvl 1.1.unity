@@ -566,8 +566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf27a40e4ffb674aa24743be97e9d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicVolume: 1
-  slide: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -8273,6 +8271,10 @@ MonoBehaviour:
   needBoxesToWin: 3
   winPanel: {fileID: 573393658}
   losePanel: {fileID: 37246193}
+  winBoxes:
+  - Blue
+  - Green
+  - Red
   thisLvl: 2
 --- !u!4 &1850828306
 Transform:
@@ -8842,7 +8844,7 @@ PrefabInstance:
     - target: {fileID: 3842081056485358185, guid: 68427d563b1f4f940a41d6fb8f0738ec, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 5c2918e8a280bc749ba25f19148b1e6c, type: 3}
+      objectReference: {fileID: 21300000, guid: c3a826c6e4e90384481fb5f750d919f6, type: 3}
     - target: {fileID: 3842081056485358185, guid: 68427d563b1f4f940a41d6fb8f0738ec, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -9138,7 +9140,7 @@ PrefabInstance:
     - target: {fileID: 6238763107805386833, guid: de2f194a3e0200c44bf3e745f1043b8c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: cffa02b4c7ad8a5479d99ca94223f0d4, type: 3}
+      objectReference: {fileID: 21300000, guid: 38fec0fd8e17477449591055e61005b8, type: 3}
     - target: {fileID: 6238763107805386833, guid: de2f194a3e0200c44bf3e745f1043b8c, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -9228,7 +9230,7 @@ PrefabInstance:
     - target: {fileID: 6800593478198274043, guid: 4c1489ea26112854b9bc7d2caf5e0a10, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: ff535659967aaee489744380d586d163, type: 3}
+      objectReference: {fileID: 21300000, guid: ac91a43caf62b7340b3f07280d5d812c, type: 3}
     - target: {fileID: 6800593478198274043, guid: 4c1489ea26112854b9bc7d2caf5e0a10, type: 3}
       propertyPath: m_SortingOrder
       value: 1

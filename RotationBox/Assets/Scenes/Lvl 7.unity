@@ -795,8 +795,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf27a40e4ffb674aa24743be97e9d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicVolume: 1
-  slide: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,6 +2900,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 194747169}
     m_Modifications:
+    - target: {fileID: 662382488275369362, guid: 192ba450bb953c143849912730f78106, type: 3}
+      propertyPath: prewarm
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 662382488275369362, guid: 192ba450bb953c143849912730f78106, type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6744665587394001114, guid: 192ba450bb953c143849912730f78106, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3505,6 +3511,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 39.93172
       objectReference: {fileID: 0}
+    - target: {fileID: 894783565031052881, guid: d48d80f124b5ee3499695b0b1d4684d1, type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 1931983627}
     - target: {fileID: 894783565031052886, guid: d48d80f124b5ee3499695b0b1d4684d1, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -8669,8 +8679,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boxes: 0
+  needBoxesToWin: 3
   winPanel: {fileID: 573393658}
   losePanel: {fileID: 37246193}
+  winBoxes:
+  - Green
+  - Red
+  - Blue
   thisLvl: 10
 --- !u!4 &1850828306
 Transform:
@@ -8876,6 +8891,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1885517050}
   m_CullTransparentMesh: 1
+--- !u!1 &1931983627 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 673461582522285186, guid: 810beab4dcef53e478232114a0db19f9, type: 3}
+  m_PrefabInstance: {fileID: 120018902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1994980390
 GameObject:
   m_ObjectHideFlags: 0

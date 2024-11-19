@@ -8353,8 +8353,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boxes: 0
+  needBoxesToWin: 3
   winPanel: {fileID: 573393658}
   losePanel: {fileID: 37246193}
+  winBoxes:
+  - Blue
+  - Green
+  - Red
   thisLvl: 4
 --- !u!4 &1850828306
 Transform:
