@@ -663,8 +663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf27a40e4ffb674aa24743be97e9d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicVolume: 1
-  slide: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,6 +871,7 @@ MonoBehaviour:
   box2: {fileID: 2074188210}
   box3: {fileID: 793878661}
   box4: {fileID: 991683877}
+  rotationSpeed: 180
   door: {fileID: 0}
 --- !u!4 &603018915
 Transform:
