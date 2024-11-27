@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|c:\\users\\\u044F\u0440\u043E\u0441\u043B\u0430\u0432\\documents\\github\\rotation-box2\\rotationbox\\assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Rotation-Box2\\RotationBox\\assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|c:\\users\\\u044F\u0440\u043E\u0441\u043B\u0430\u0432\\documents\\github\\rotation-box2\\rotationbox\\assets\\scripts\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Rotation-Box2\\RotationBox\\assets\\scripts\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\box.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|c:\\users\\\u044F\u0440\u043E\u0441\u043B\u0430\u0432\\documents\\github\\rotation-box2\\rotationbox\\assets\\scripts\\changecolordoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|C:\\Users\\\u042F\u0440\u043E\u0441\u043B\u0430\u0432\\Documents\\GitHub\\Rotation-Box2\\RotationBox\\assets\\scripts\\changecolordoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D8387F0-DDA0-2507-0EDD-529112F6E025}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changecolordoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Assets\\Scripts\\ChangeColorDoor.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:10:45.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:10:45.806Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Box.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwCAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:08:24.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:08:24.432Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Rotation.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCAAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T16:07:15.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T16:07:15.776Z"
             }
           ]
         }

@@ -96,7 +96,7 @@ public class MainMenu : MonoBehaviour
             winPanel.SetActive(true);
         }
         box = collision.gameObject.GetComponent<Box>();
-        if (collision.gameObject.tag == "Gray")
+        if (collision.gameObject.tag == "Gray" || collision.gameObject.tag == "RGB")
         {
             losePanel.SetActive(true);
         }
