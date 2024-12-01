@@ -231,4 +231,52 @@ public class MainMenu : MonoBehaviour
             Time.timeScale = 1f;
         }
     }
+    public void Lvl17()
+    {
+        if (LastCompletedLvl >= 17)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 17);
+            Time.timeScale = 1f;
+        }
+    }
+    public void Lvl18()
+    {
+        if (LastCompletedLvl >= 18)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 18);
+            Time.timeScale = 1f;
+        }
+    }
+    public void Lvl19()
+    {
+        if (LastCompletedLvl >= 19)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 19);
+            Time.timeScale = 1f;
+        }
+    }
+    public void Lvl20()
+    {
+        if (LastCompletedLvl >= 20)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 20);
+            Time.timeScale = 1f;
+        }
+    }
+    public void Lvl21()
+    {
+        if (LastCompletedLvl >= 21)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 21);
+            Time.timeScale = 1f;
+        }
+    }
+    public void Lvl22()
+    {
+        if (LastCompletedLvl >= 22)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 22);
+            Time.timeScale = 1f;
+        }
+    }
 }
