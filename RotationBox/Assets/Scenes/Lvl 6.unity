@@ -3397,6 +3397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RGB box
       objectReference: {fileID: 0}
+    - target: {fileID: 9003535388853645489, guid: 329085203bc2c4843a020b0a54e984fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3529,7 +3533,7 @@ MonoBehaviour:
   - Green
   - Blue
   - Red
-  thisLvl: 9
+  thisLvl: 13
 --- !u!4 &1850828306
 Transform:
   m_ObjectHideFlags: 0

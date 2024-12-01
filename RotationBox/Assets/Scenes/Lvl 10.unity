@@ -695,8 +695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bf27a40e4ffb674aa24743be97e9d45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicVolume: 1
-  slide: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1776,6 +1774,10 @@ PrefabInstance:
     - target: {fileID: 9003535388853645489, guid: 329085203bc2c4843a020b0a54e984fd, type: 3}
       propertyPath: m_Name
       value: RGB box
+      objectReference: {fileID: 0}
+    - target: {fileID: 9003535388853645489, guid: 329085203bc2c4843a020b0a54e984fd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3566,7 +3568,7 @@ MonoBehaviour:
   - Blue
   - Green
   - Red
-  thisLvl: 10
+  thisLvl: 17
 --- !u!4 &1850828306
 Transform:
   m_ObjectHideFlags: 0

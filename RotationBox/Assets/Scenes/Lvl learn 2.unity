@@ -3905,7 +3905,7 @@ MonoBehaviour:
   - Red
   - Green
   - Blue
-  thisLvl: 1
+  thisLvl: 3
 --- !u!4 &1850828306
 Transform:
   m_ObjectHideFlags: 0
